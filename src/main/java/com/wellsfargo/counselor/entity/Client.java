@@ -52,6 +52,10 @@ public class Client {
         return advisorId;
     }
 
+    public void setAdvisorId(Advisor advisorId) {
+        this.advisorId = advisorId;
+    }
+
     public String getFirstName(){
         return firstName;
     }

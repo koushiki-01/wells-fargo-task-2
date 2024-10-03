@@ -30,6 +30,10 @@ public class Portfolio {
         return clientId;
     }
 
+    public void setClientId(Client clientId) {
+        this.clientId = clientId;
+    }
+
     public String getCreationDate() {
         return creationDate;
     }

@@ -47,6 +47,10 @@ public class Security {
         return portfolioId;
     }
 
+    public void setPortfolioId(Portfolio portfolioId) {
+        this.portfolioId = portfolioId;
+    }
+
     public String getName() {
         return name;
     }
